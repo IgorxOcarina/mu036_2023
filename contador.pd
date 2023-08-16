@@ -1,0 +1,27 @@
+#N canvas 182 194 512 421 12;
+#X obj 170 104 inlet;
+#X obj 170 128 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 170 152 t f b;
+#X obj 170 186 metro 0.25 120 permin;
+#X obj 170 250 f;
+#X obj 170 274 % 16;
+#X obj 170 298 outlet;
+#X obj 210 250 + 1;
+#X msg 188 215 0;
+#X obj 248 104 inlet;
+#X floatatom 248 128 5 0 0 0 - - - 0;
+#X msg 248 151 tempo \$1 permin;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 1 8 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 4 0 7 0;
+#X connect 5 0 6 0;
+#X connect 7 0 4 1;
+#X connect 8 0 4 1;
+#X connect 9 0 10 0;
+#X connect 10 0 11 0;
+#X connect 11 0 3 0;
