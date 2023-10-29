@@ -1,2 +1,2 @@
 # mu036_2023
- Repositorio de material de apoio de acustica II de 2023 UNICAMP
+ Repositorio de material de apoio de Acústica II de 2023 UNICAMP
