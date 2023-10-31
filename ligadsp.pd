@@ -1,8 +1,0 @@
-#N canvas 52 82 656 469 12;
-#X obj 107 105 tgl 30 0 empty empty DSP 7 40 0 10 #fcfcfc #000000 #000000
-0 1;
-#X msg 46 164 \; pd dsp \$1;
-#X obj 73 60 inlet;
-#X connect 0 0 1 0;
-#X connect 2 0 0 0;
-#X coords 0 -1 1 1 45 55 2 100 100;
